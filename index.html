@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="nl" dir="ltr">
+	<head>
+		<!--Metatags-->
+		<meta charset="utf-8">
+		<meta name="author" content="Dennis Veldhuizen">
+		<!--Titel-->
+		<title>jQuery-toepassing</title>
+		<!--Speciaal voor JavaScript in HTML-->
+		<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+		<!-- Het CSS-document met eigen stijl inladen. -->
+		<link rel="stylesheet" href="css/stijl.css">
+		<!-- Het JavaScript-document met eigen stijl inladen. -->
+		<script src="js/script.js"></script>
+		<!-- Altijd erbij zetten om de bezoekers te attenderen dat er een JavaScript op de website. -->
+		<noscript>
+			Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+		</noscript>
+	</head>
+	<body>
+		<p>
+			Hieronder kan er met behulp van JavaScript uitgerekend worden wat de uitkomst is en welke kleur erbij hoort.
+		</p>
+		<table>
+			<thead>
+				<tr>
+					<th>Kleur</th>
+					<th>Vanaf</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="groen">
+					<td>Groen</td>
+					<td>0</td>
+				</tr>
+				<tr class="geel">
+					<td>Geel</td>
+					<td>250.000</td>
+				</tr>
+				<tr class="oranje">
+					<td>Oranje</td>
+					<td>500.000</td>
+				</tr>
+				<tr class="rood">
+					<td>Rood</td>
+					<td>1.000.000</td>
+				</tr>
+			</tbody>
+		</table><br>
+		<form>
+			<input type="text" id="eerstegetal" placeholder="Eerste getal invoeren"> x
+			<input type="text" id="tweedegetal" placeholder="Tweede getal invoeren"> =
+			<input type="text" id="uitkomst" disabled placeholder="Uitkomst">
+			<input type="button" id="rekenen" value="Rekenen">
+			<input type="button" id="opschonen" value="Opschonen">
+		</form>
+	</body>
+</html>

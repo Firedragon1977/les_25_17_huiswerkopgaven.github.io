@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS-document */
+input, p, td{
+	font-weight: bold;
+}
+input, td{
+	text-align: center;
+	margin: 0px 5px;
+	border: 2px solid blue;
+	border-radius: 5px;
+}
+input[id*="getal"]{
+	background-color: Yellow;
+}
+th, td{
+	width: 200px;
+}
+.geel{
+	background-color: yellow;
+}
+.groen{
+	background-color: green;
+}
+.oranje{
+	background-color: orange;
+}
+.rood{
+	background-color: red;
+}
+#opschonen, #rekenen{
+	background-color: greenyellow;
+}
+#opschonen:hover, #rekenen:hover{
+	background-color: cyan;
+}
+#opschonen:focus, #rekenen:focus{
+	background-color: coral;
+}
